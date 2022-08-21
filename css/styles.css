@@ -80,6 +80,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   background-color: var(--secondary-text-color);
+  cursor: pointer;
 }
 /* features */
 .hidden-title {
@@ -151,6 +152,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   background-color: var(--team-section-background-color);
+  cursor: pointer;
 }
 .filter-list-button:hover,
 .filter-list-button:focus,
