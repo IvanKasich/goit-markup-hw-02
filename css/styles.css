@@ -13,8 +13,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -26,12 +24,13 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  color: var(--secondary-text-color);
+  letter-spacing: 0.03em;
+  color: var(--logo-text-color);
   text-decoration: none;
   text-transform: capitalize;
 }
 .logo-color {
-  color: var(--logo-text-color);
+  color: var(--secondary-text-color);
 }
 .nav-list,
 .header-contacts,
@@ -65,8 +64,7 @@ body {
 }
 /* main */
 /* hero */
-.hero,
-.hero-btn {
+.hero {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -74,11 +72,15 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-title-text-color);
+  background-color: burlywood;
 }
 .hero-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-text-color);
   background-color: var(--secondary-text-color);
   cursor: pointer;
 }
@@ -92,22 +94,25 @@ body {
   overflow: hidden;
 }
 /* what are we */
-.features-list-item-heading,
-.what-are-we-title,
-.our-team-title {
+.features-list-item-heading {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
+/* What are we, our team */
 .what-are-we-title,
 .our-team-title {
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
-/* our team */
+
 .our-team {
   background-color: var(--team-section-background-color);
 }
@@ -115,30 +120,35 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-text-color);
 }
 .our-team-list-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 /* footer */
+address {
+  font-style: inherit;
+}
 .contacts {
   background-color: var(--footer-background-color);
 }
-.map {
-  font-style: normal;
+.map-link {
   text-decoration: none;
   color: var(--secondary-title-text-color);
 }
-.logo-footer-color {
+.footer-logo {
   color: var(--secondary-title-text-color);
 }
-.mail,
-.tel {
-  font-style: normal;
+.logo-footer-color {
+  color: var(--secondary-text-color);
+}
+.mail-link,
+.tel-link {
   text-decoration: none;
   color: var(--address-text-color);
 }
@@ -173,7 +183,7 @@ body {
   color: var(--title-text-color);
 }
 .portfolio-content-list-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.03em;
 }
